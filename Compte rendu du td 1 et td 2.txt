@@ -1,0 +1,53 @@
+
+
+Compte rendu
+Travaux Dirigés : Complexité et Structures de Données
+Filière : IDRS Yasmine Elharraki
+
+TD1 : Structures de données
+Exercice 1 : Manipulation des points
+Dans cet exercice, on a créé une structure Point qui contient deux coordonnées entières (abscisse et ordonnée).
+Travail effectué :
+	•	Définition de la structure Point
+	•	Lecture et affichage d’un point
+	•	Calcul de la distance entre un point et l’origine
+	•	Utilisation de tableaux statiques et dynamiques
+	•	Tri des points selon leur distance à l’origine
+Résultat :
+Le programme permet de :
+	•	enregistrer plusieurs points,
+	•	les afficher,
+	•	les classer en fonction de leur distance.
+Complexité :
+Le tri utilisé est basé sur la comparaison : -Complexité : O(n²)
+
+Exercice 2 : Structure Heure
+On a défini une structure Heure pour manipuler le temps.
+Fonctions développées :
+	•	Transformation d’une heure en secondes
+	•	Transformation de secondes en heure
+	•	Addition de deux heures
+Conclusion :
+Cet exercice montre qu’il est souvent plus simple de convertir une structure en une valeur numérique pour faire des calculs.
+
+TD2 : Complexité et récursivité
+Exercice 1 : Recherche du minimum
+L’objectif est de trouver la position de la première occurrence du minimum dans un tableau.
+-Complexité : O(n)
+
+Exercice 2 : MiniMax
+On calcule le minimum parmi les maximums de chaque ligne d’une matrice.
+-Complexité : O(n × m)
+
+Exercice 3 : Récursivité
+Fonctions étudiées :
+	•	Puissance classique → O(n)
+	•	Puissance rapide → O(log n)
+Conclusion :
+La méthode rapide est nettement plus performante.
+
+Exercice 4 : Étude de fonctions
+	•	rec1(n) calcule : 2ⁿ avec une complexité O(n)
+	•	rec2(n) calcule : 2ⁿ avec une complexité O(2ⁿ)
+Conclusion :
+Deux algorithmes peuvent produire le même résultat mais avoir des temps d’exécution très différents.
